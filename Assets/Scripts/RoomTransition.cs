@@ -1,12 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RoomTransition : MonoBehaviour
 {
     public Vector2 cameraChange; //how much camera moves
     public Vector3 playerChange; //how much player moves
     private CameraMovement cam;
+
+    public bool needText;
+    public string placeName;
+    public GameObject text;
+    public Text placeText;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +34,19 @@ public class RoomTransition : MonoBehaviour
             cam.maxPosition += cameraChange;
             other.transform.position += playerChange;
 
+            if(needText)
+            {
+                StartCoroutine(placeNameCo());
+            }
+
         }
+    }
+
+    private IEnumerator placeNameCo()
+    {
+        text.SetActive(true);
+        placeText.text = placeName;
+        yield return new WaitForSeconds(4f);
+        text.SetActive(false);
     }
 }
