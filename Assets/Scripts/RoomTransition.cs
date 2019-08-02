@@ -14,10 +14,10 @@ public class RoomTransition : MonoBehaviour
     public GameObject text;
     public Text placeText;
     // Start is called before the first frame update
+
     void Start()
     {
         cam = Camera.main.GetComponent<CameraMovement>();
-
     }
 
     // Update is called once per frame
