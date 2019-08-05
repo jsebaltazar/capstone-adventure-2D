@@ -452,6 +452,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &647736479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8973755079689932675, guid: 485ad15caa8551c42b81278209ad7552,
+    type: 3}
+  m_PrefabInstance: {fileID: 777226258}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &647736480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647736479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c82751d648387d4aba28bee47f8a22b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogBox: {fileID: 1424815724}
+  dialogText: {fileID: 886015920}
+  dialog: Fountain ahead
+  playerInRange: 0
 --- !u!1001 &770599181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -561,6 +583,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b53290f247346a4f90cb8cb04125aa3, type: 3}
+--- !u!1001 &777226258
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8973755079689932675, guid: 485ad15caa8551c42b81278209ad7552,
+        type: 3}
+      propertyPath: m_Name
+      value: Sign_Map02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859519219286384794, guid: 485ad15caa8551c42b81278209ad7552,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.6621976
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859519219286384794, guid: 485ad15caa8551c42b81278209ad7552,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -25.623348
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859519219286384794, guid: 485ad15caa8551c42b81278209ad7552,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859519219286384794, guid: 485ad15caa8551c42b81278209ad7552,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859519219286384794, guid: 485ad15caa8551c42b81278209ad7552,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859519219286384794, guid: 485ad15caa8551c42b81278209ad7552,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859519219286384794, guid: 485ad15caa8551c42b81278209ad7552,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859519219286384794, guid: 485ad15caa8551c42b81278209ad7552,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859519219286384794, guid: 485ad15caa8551c42b81278209ad7552,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859519219286384794, guid: 485ad15caa8551c42b81278209ad7552,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859519219286384794, guid: 485ad15caa8551c42b81278209ad7552,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 485ad15caa8551c42b81278209ad7552, type: 3}
 --- !u!1 &886015918
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,7 +1067,7 @@ PrefabInstance:
     - target: {fileID: 66108135860334730, guid: 1b53290f247346a4f90cb8cb04125aa3,
         type: 3}
       propertyPath: m_Name
-      value: RoomTransition_Map00_to_Map02 (1)
+      value: RoomTransition_Map02_to_Map00
       objectReference: {fileID: 0}
     - target: {fileID: 66108135860334729, guid: 1b53290f247346a4f90cb8cb04125aa3,
         type: 3}
@@ -1052,6 +1143,21 @@ PrefabInstance:
         type: 3}
       propertyPath: playerChange.x
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 66108135860334743, guid: 1b53290f247346a4f90cb8cb04125aa3,
+        type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 2004228111}
+    - target: {fileID: 66108135860334743, guid: 1b53290f247346a4f90cb8cb04125aa3,
+        type: 3}
+      propertyPath: placeText
+      value: 
+      objectReference: {fileID: 2004228113}
+    - target: {fileID: 66108135860334743, guid: 1b53290f247346a4f90cb8cb04125aa3,
+        type: 3}
+      propertyPath: placeName
+      value: Ang Village
       objectReference: {fileID: 0}
     - target: {fileID: 66108135860334728, guid: 1b53290f247346a4f90cb8cb04125aa3,
         type: 3}
@@ -1237,7 +1343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  speed: 3
+  speed: 4
 --- !u!1001 &1781409070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1670,7 +1776,7 @@ PrefabInstance:
     - target: {fileID: 8973755079689932675, guid: 485ad15caa8551c42b81278209ad7552,
         type: 3}
       propertyPath: m_Name
-      value: Sign
+      value: Sign_Map01
       objectReference: {fileID: 0}
     - target: {fileID: 1859519219286384794, guid: 485ad15caa8551c42b81278209ad7552,
         type: 3}
@@ -1789,5 +1895,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogBox: {fileID: 1424815724}
   dialogText: {fileID: 886015920}
-  dialog: boos on left map..
+  dialog: You are leaving the village. Goodluck!
   playerInRange: 0
