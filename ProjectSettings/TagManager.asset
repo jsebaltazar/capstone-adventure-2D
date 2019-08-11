@@ -43,6 +43,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Enemy
+    uniqueID: 2426363783
+    locked: 0
   - name: Sign
     uniqueID: 1809210529
     locked: 0
