@@ -1,0 +1,13 @@
+Quest 1: Find NPC 1
+	Quest 1:1 Help NPC 1 Find Kitty by looking for clues
+		SubQuest 1:1 Collect poop
+	Quest 1:2 Kitty the Boar is in Berserk!
+		SubQuest 2:1 Defeat Kitty the Boar
+		Kill: Kitty the Boar (Y/N)?
+	End Quest 1: Outcomes	
+		Kill Kitty and Tell NPC 1
+		Subdue Kitty and Tell NPC 1
+
+
+			
+Quest 2: Missing Chickens
