@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 34e4e1b8cae9a3742ba04c897dcd8a54, type: 3}
-    totalSpriteSurfaceArea: 2185652
+    totalSpriteSurfaceArea: 2194016
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -130,6 +130,8 @@ SpriteAtlas:
   - {fileID: 21300006, guid: 2da12e02bd0264d48a5a2b1dcb667ff8, type: 3}
   - {fileID: 21300000, guid: 2da12e02bd0264d48a5a2b1dcb667ff8, type: 3}
   - {fileID: 21300002, guid: 2da12e02bd0264d48a5a2b1dcb667ff8, type: 3}
+  - {fileID: 21300000, guid: 82cc9e02dcf983b41a49061615a5c0a0, type: 3}
+  - {fileID: 21300002, guid: 82cc9e02dcf983b41a49061615a5c0a0, type: 3}
   - {fileID: 21300012, guid: 213b91f2f9792db4b8ca76fe9329eaa8, type: 3}
   - {fileID: 21300014, guid: 213b91f2f9792db4b8ca76fe9329eaa8, type: 3}
   - {fileID: 21300008, guid: 213b91f2f9792db4b8ca76fe9329eaa8, type: 3}
@@ -1621,6 +1623,8 @@ SpriteAtlas:
   - boar_16_bit_3
   - boar_16_bit_0
   - boar_16_bit_1
+  - HP_BAR_0
+  - HP_BAR_1
   - boar_6
   - boar_7
   - boar_4
