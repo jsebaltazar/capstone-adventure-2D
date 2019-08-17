@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 34e4e1b8cae9a3742ba04c897dcd8a54, type: 3}
-    totalSpriteSurfaceArea: 2194016
+    totalSpriteSurfaceArea: 2221664
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -304,6 +304,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: b34ccd49eec1b98498bb94959682e012, type: 3}
   - {fileID: 21300000, guid: 7c0b577b5c2edd6479ccecf3288a0bf8, type: 3}
   - {fileID: 21300000, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300000, guid: c28036dbec098d4478e72266d0d62367, type: 3}
   - {fileID: 21300000, guid: 20531dfd29f1e294b8e3cb29a2ce3635, type: 3}
   - {fileID: 21301654, guid: fe7eb42ef32d3ca44a1b411faad68005, type: 3}
   - {fileID: 21301674, guid: fe7eb42ef32d3ca44a1b411faad68005, type: 3}
@@ -1797,6 +1798,7 @@ SpriteAtlas:
   - player_sword_thrust_skillt
   - font
   - NPC_elf
+  - Chickens-sheet
   - cave
   - Overworld_827
   - Overworld_837

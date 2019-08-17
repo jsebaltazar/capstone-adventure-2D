@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class HeartManager : MonoBehaviour
 {
-    public Image[] hearts;
+    public Image[] heart;
     public Sprite fullHeart;
     public Sprite emptyHearts;
     public Sprite halfFullHeart;
@@ -19,10 +19,12 @@ public class HeartManager : MonoBehaviour
 
     public void InitHearts()
     {
+        Debug.Log(heart.Length);
         for (int i = 0; i < heartContainers.initialValue; i++)
         {
-            hearts[i].gameObject.SetActive(true);
-            hearts[i].sprite = fullHeart;
+
+            heart[i].sprite= fullHeart;
+            heart[i].gameObject.SetActive(true);
         }
     }
 }
