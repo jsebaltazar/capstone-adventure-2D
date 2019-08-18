@@ -13,8 +13,8 @@ public class RoomTransition : MonoBehaviour
     public string placeName;
     public GameObject text;
     public Text placeText;
-    public Vector2 minPos;
-    public Vector2 maxPos;
+  //  public Vector2 minPos;
+  //  public Vector2 maxPos;
     // Start is called before the first frame update
 
     void Start()
@@ -30,12 +30,12 @@ public class RoomTransition : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !other.isTrigger)
         {
-            //   cam.minPosition = cam.minPosition + cameraChange;
-            //    cam.maxPosition = cam.maxPosition + cameraChange;
-            cam.minPosition = minPos;
-            cam.maxPosition = maxPos;
+            cam.minPosition = cam.minPosition + cameraChange;
+            cam.maxPosition = cam.maxPosition + cameraChange;
+           // cam.minPosition = minPos;
+           // cam.maxPosition = maxPos;
             other.transform.position += playerChange;
 
             if(needText)

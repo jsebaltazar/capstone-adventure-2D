@@ -350,7 +350,7 @@ PrefabInstance:
     - target: {fileID: 66108135860334743, guid: 1b53290f247346a4f90cb8cb04125aa3,
         type: 3}
       propertyPath: cameraChange.y
-      value: -15
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 66108135860334743, guid: 1b53290f247346a4f90cb8cb04125aa3,
         type: 3}
@@ -756,7 +756,7 @@ MonoBehaviour:
   target: {fileID: 1579119538}
   smoothing: 0.05
   maxPosition: {x: 24.9, y: -5}
-  minPosition: {x: 5, y: -25}
+  minPosition: {x: 5.2, y: -25}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -807,7 +807,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5, y: -25, z: -10}
+  m_LocalPosition: {x: 5.2, y: -25, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
