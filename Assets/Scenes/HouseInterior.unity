@@ -5156,5 +5156,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 836d3124536cc174d9d4f8586f619297,
         type: 2}
+    - target: {fileID: 4339592652365478463, guid: 6bf225a7936e6784e84fdef59453cdf3,
+        type: 3}
+      propertyPath: fadePanel
+      value: 
+      objectReference: {fileID: 591119610440223135, guid: cd8d5073bfde966428baa1c8dcf567ef,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bf225a7936e6784e84fdef59453cdf3, type: 3}
