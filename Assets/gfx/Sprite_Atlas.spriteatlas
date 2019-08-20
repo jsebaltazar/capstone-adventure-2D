@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 34e4e1b8cae9a3742ba04c897dcd8a54, type: 3}
-    totalSpriteSurfaceArea: 2045280
+    totalSpriteSurfaceArea: 2145632
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -312,9 +312,21 @@ SpriteAtlas:
   - {fileID: 21300120, guid: 561c96f627c247f42ba498ea3008f8a3, type: 3}
   - {fileID: 21300000, guid: a4139307bd8333b45805915d735458f1, type: 3}
   - {fileID: 21300000, guid: b34ccd49eec1b98498bb94959682e012, type: 3}
+  - {fileID: 21300014, guid: e7d297f9a6359924686acbee5374e94b, type: 3}
+  - {fileID: 21300012, guid: e7d297f9a6359924686acbee5374e94b, type: 3}
+  - {fileID: 21300010, guid: e7d297f9a6359924686acbee5374e94b, type: 3}
+  - {fileID: 21300008, guid: e7d297f9a6359924686acbee5374e94b, type: 3}
+  - {fileID: 21300006, guid: e7d297f9a6359924686acbee5374e94b, type: 3}
+  - {fileID: 21300004, guid: e7d297f9a6359924686acbee5374e94b, type: 3}
+  - {fileID: 21300002, guid: e7d297f9a6359924686acbee5374e94b, type: 3}
+  - {fileID: 21300000, guid: e7d297f9a6359924686acbee5374e94b, type: 3}
   - {fileID: 21300000, guid: 7c0b577b5c2edd6479ccecf3288a0bf8, type: 3}
   - {fileID: 21300000, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
   - {fileID: 21300000, guid: c28036dbec098d4478e72266d0d62367, type: 3}
+  - {fileID: 21300006, guid: e0d1319dc6ff0a344a62a1cd541bb53a, type: 3}
+  - {fileID: 21300004, guid: e0d1319dc6ff0a344a62a1cd541bb53a, type: 3}
+  - {fileID: 21300002, guid: e0d1319dc6ff0a344a62a1cd541bb53a, type: 3}
+  - {fileID: 21300000, guid: e0d1319dc6ff0a344a62a1cd541bb53a, type: 3}
   - {fileID: 21300000, guid: 20531dfd29f1e294b8e3cb29a2ce3635, type: 3}
   - {fileID: 21301654, guid: fe7eb42ef32d3ca44a1b411faad68005, type: 3}
   - {fileID: 21301674, guid: fe7eb42ef32d3ca44a1b411faad68005, type: 3}
@@ -1545,6 +1557,10 @@ SpriteAtlas:
   - {fileID: 21300238, guid: c99f52bef0e0e7e4fbb241f49771038b, type: 3}
   - {fileID: 21300218, guid: c99f52bef0e0e7e4fbb241f49771038b, type: 3}
   - {fileID: 21300216, guid: c99f52bef0e0e7e4fbb241f49771038b, type: 3}
+  - {fileID: 21300004, guid: 3941b61fe52e24a4fb30e00c15df1f0d, type: 3}
+  - {fileID: 21300006, guid: 3941b61fe52e24a4fb30e00c15df1f0d, type: 3}
+  - {fileID: 21300000, guid: 3941b61fe52e24a4fb30e00c15df1f0d, type: 3}
+  - {fileID: 21300002, guid: 3941b61fe52e24a4fb30e00c15df1f0d, type: 3}
   - {fileID: 21300016, guid: 092da0df537c0d0449087193ee4cbb3f, type: 3}
   - {fileID: 21300018, guid: 092da0df537c0d0449087193ee4cbb3f, type: 3}
   - {fileID: 21300008, guid: 092da0df537c0d0449087193ee4cbb3f, type: 3}
@@ -2090,9 +2106,21 @@ SpriteAtlas:
   - Minotaur_Boss - Sprite Sheet_60
   - Equipment_UI
   - player_sword_thrust_skillt
+  - chimney_smoke_7
+  - chimney_smoke_6
+  - chimney_smoke_5
+  - chimney_smoke_4
+  - chimney_smoke_3
+  - chimney_smoke_2
+  - chimney_smoke_1
+  - chimney_smoke_0
   - font
   - NPC_elf
   - Chickens-sheet
+  - tree_test_3
+  - tree_test_2
+  - tree_test_1
+  - tree_test_0
   - cave
   - Overworld_827
   - Overworld_837
@@ -3323,6 +3351,10 @@ SpriteAtlas:
   - objects_119
   - objects_109
   - objects_108
+  - chimney_fire_2
+  - chimney_fire_3
+  - chimney_fire_0
+  - chimney_fire_1
   - player_idle_8
   - player_idle_9
   - player_idle_4
