@@ -5,15 +5,13 @@ using UnityEngine.UI;
 
 public class Sign : MonoBehaviour
 {
+
+    public Signal contextSignal;
+
     public GameObject dialogBox;
     public Text dialogText;
     public string dialog;
-        public bool playerInRange;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public bool playerInRange;
 
     // Update is called once per frame
     void Update()
@@ -27,6 +25,7 @@ public class Sign : MonoBehaviour
             }
             else
             {
+                dialogBox.transform.SetAsLastSibling();
                 dialogBox.SetActive(true);
                 dialogText.text = dialog;
             }
@@ -40,6 +39,7 @@ public class Sign : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
+            contextSignal.Raise();
             Debug.Log("Player in range");
             playerInRange = true;
         }
@@ -48,12 +48,13 @@ public class Sign : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
+            contextSignal.Raise();
             Debug.Log("Player left range");
             playerInRange = false;
             dialogBox.SetActive(false);
         }
-        
+
     }
 }

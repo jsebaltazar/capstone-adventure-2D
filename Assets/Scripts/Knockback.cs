@@ -23,12 +23,17 @@ public class Knockback : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.CompareTag("breakable") && this.gameObject.CompareTag("Player"))
+        if(this.gameObject.CompareTag("enemy") && other.gameObject.CompareTag("enemy"))
+        {
+
+        }
+
+        else if (other.CompareTag("breakable") && this.gameObject.CompareTag("Player"))
         {
             other.GetComponent<Pot>().Smash();
         }
 
-        if (other.gameObject.CompareTag("enemy") || other.gameObject.CompareTag("Player"))
+        else if (other.gameObject.CompareTag("enemy") || other.gameObject.CompareTag("Player"))
         {
             Rigidbody2D hit = other.GetComponent<Rigidbody2D>();
             if(hit != null)

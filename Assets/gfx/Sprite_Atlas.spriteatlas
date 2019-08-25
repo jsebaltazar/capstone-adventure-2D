@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 34e4e1b8cae9a3742ba04c897dcd8a54, type: 3}
-    totalSpriteSurfaceArea: 2145632
+    totalSpriteSurfaceArea: 2153312
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -148,6 +148,7 @@ SpriteAtlas:
   - {fileID: 21300006, guid: 213b91f2f9792db4b8ca76fe9329eaa8, type: 3}
   - {fileID: 21300000, guid: 213b91f2f9792db4b8ca76fe9329eaa8, type: 3}
   - {fileID: 21300002, guid: 213b91f2f9792db4b8ca76fe9329eaa8, type: 3}
+  - {fileID: 21300000, guid: 776ffd432159f9a448c302d7a85c1888, type: 3}
   - {fileID: 21300000, guid: 25800ed3dd4b78a41ae9b692ba78f370, type: 3}
   - {fileID: 21300016, guid: 238e5d44210935d41a0e7a164c366edd, type: 3}
   - {fileID: 21300018, guid: 238e5d44210935d41a0e7a164c366edd, type: 3}
@@ -1942,6 +1943,7 @@ SpriteAtlas:
   - boar_3
   - boar_0
   - boar_1
+  - Window_UI
   - NPC_test
   - player_attack_8
   - player_attack_9
