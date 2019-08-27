@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 34e4e1b8cae9a3742ba04c897dcd8a54, type: 3}
-    totalSpriteSurfaceArea: 2153312
+    totalSpriteSurfaceArea: 2345824
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -166,7 +166,6 @@ SpriteAtlas:
   - {fileID: 21300020, guid: 238e5d44210935d41a0e7a164c366edd, type: 3}
   - {fileID: 21300026, guid: 238e5d44210935d41a0e7a164c366edd, type: 3}
   - {fileID: 21300024, guid: 238e5d44210935d41a0e7a164c366edd, type: 3}
-  - {fileID: 21300000, guid: 8a06fa846a9214a478a8ae2d90aba579, type: 3}
   - {fileID: 21300016, guid: b74afc849b7de44458510b2067b751b1, type: 3}
   - {fileID: 21300018, guid: b74afc849b7de44458510b2067b751b1, type: 3}
   - {fileID: 21300004, guid: b74afc849b7de44458510b2067b751b1, type: 3}
@@ -312,7 +311,9 @@ SpriteAtlas:
   - {fileID: 21300126, guid: 561c96f627c247f42ba498ea3008f8a3, type: 3}
   - {fileID: 21300120, guid: 561c96f627c247f42ba498ea3008f8a3, type: 3}
   - {fileID: 21300000, guid: a4139307bd8333b45805915d735458f1, type: 3}
+  - {fileID: 21300000, guid: a53d1c271dbfb234a8ae2a962e67d2be, type: 3}
   - {fileID: 21300000, guid: b34ccd49eec1b98498bb94959682e012, type: 3}
+  - {fileID: 21300000, guid: 6d33549960b2e9d41b0e3282a7095812, type: 3}
   - {fileID: 21300014, guid: e7d297f9a6359924686acbee5374e94b, type: 3}
   - {fileID: 21300012, guid: e7d297f9a6359924686acbee5374e94b, type: 3}
   - {fileID: 21300010, guid: e7d297f9a6359924686acbee5374e94b, type: 3}
@@ -1840,6 +1841,7 @@ SpriteAtlas:
   - {fileID: 21300076, guid: 0300e5df8a12aa24e82814fac314c774, type: 3}
   - {fileID: 21300084, guid: 0300e5df8a12aa24e82814fac314c774, type: 3}
   - {fileID: 21300086, guid: 0300e5df8a12aa24e82814fac314c774, type: 3}
+  - {fileID: 21300000, guid: 11dab2ffdeb47c845a8af04ac16a198f, type: 3}
   m_PackedSpriteNamesToIndex:
   - hotsoup_4
   - hotsoup_5
@@ -1961,7 +1963,6 @@ SpriteAtlas:
   - player_attack_10
   - player_attack_13
   - player_attack_12
-  - Tree_64x64
   - log_8
   - log_9
   - log_2
@@ -2107,7 +2108,9 @@ SpriteAtlas:
   - Minotaur_Boss - Sprite Sheet_63
   - Minotaur_Boss - Sprite Sheet_60
   - Equipment_UI
+  - Cloud3
   - player_sword_thrust_skillt
+  - Cloud1
   - chimney_smoke_7
   - chimney_smoke_6
   - chimney_smoke_5
@@ -3635,5 +3638,6 @@ SpriteAtlas:
   - Inner_38
   - Inner_42
   - Inner_43
+  - Cloud2
   m_Tag: Sprite_Atlas
   m_IsVariant: 0

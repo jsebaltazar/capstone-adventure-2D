@@ -30,14 +30,11 @@ public class Sign : MonoBehaviour
                 dialogText.text = dialog;
             }
         }
-
-
-
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if(other.CompareTag("Player") && !other.isTrigger  )
         {
             contextSignal.Raise();
             Debug.Log("Player in range");
@@ -48,7 +45,7 @@ public class Sign : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !other.isTrigger)
         {
             contextSignal.Raise();
             Debug.Log("Player left range");
