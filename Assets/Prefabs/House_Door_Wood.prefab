@@ -11,11 +11,12 @@ GameObject:
   - component: {fileID: 2942741290095187242}
   - component: {fileID: 2942741290095187243}
   - component: {fileID: 2942741290095187244}
-  - component: {fileID: 2942741290095187245}
+  - component: {fileID: 4045674045851732821}
   - component: {fileID: 2942741290095187254}
   - component: {fileID: 2942741290095187255}
   - component: {fileID: 2942741290095187240}
   - component: {fileID: 2942741290095187241}
+  - component: {fileID: 1500462594561818853}
   m_Layer: 0
   m_Name: House_Door_Wood
   m_TagString: Untagged
@@ -111,23 +112,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2942741290095187245
-MonoBehaviour:
+--- !u!61 &4045674045851732821
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2942741290095187246}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c82751d648387d4aba28bee47f8a22b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contextSignal: {fileID: 11400000, guid: 60f082268600e10449876c7818fc85a5, type: 2}
-  dialogBox: {fileID: 0}
-  dialogText: {fileID: 0}
-  dialog: Its locked!
-  playerInRange: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1839735485 &2942741290095187254
 Tilemap:
   m_ObjectHideFlags: 0
@@ -223,3 +233,22 @@ CompositeCollider2D:
   m_CompositePaths:
     m_Paths: []
   m_VertexDistance: 0.0005
+--- !u!114 &1500462594561818853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2942741290095187246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2a4007091ba244d88ea30b28534a0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contextSignal: {fileID: 0}
+  dialogBox: {fileID: 0}
+  dialogText: {fileID: 0}
+  sentences: []
+  index: 0
+  typingSpeed: 0
+  playerInRange: 0

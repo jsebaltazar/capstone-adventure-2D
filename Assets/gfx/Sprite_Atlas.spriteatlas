@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 34e4e1b8cae9a3742ba04c897dcd8a54, type: 3}
-    totalSpriteSurfaceArea: 2345824
+    totalSpriteSurfaceArea: 2346848
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -1559,6 +1559,7 @@ SpriteAtlas:
   - {fileID: 21300238, guid: c99f52bef0e0e7e4fbb241f49771038b, type: 3}
   - {fileID: 21300218, guid: c99f52bef0e0e7e4fbb241f49771038b, type: 3}
   - {fileID: 21300216, guid: c99f52bef0e0e7e4fbb241f49771038b, type: 3}
+  - {fileID: 21300000, guid: 078c98de09f8d9b49af55c06c101c741, type: 3}
   - {fileID: 21300004, guid: 3941b61fe52e24a4fb30e00c15df1f0d, type: 3}
   - {fileID: 21300006, guid: 3941b61fe52e24a4fb30e00c15df1f0d, type: 3}
   - {fileID: 21300000, guid: 3941b61fe52e24a4fb30e00c15df1f0d, type: 3}
@@ -3356,6 +3357,7 @@ SpriteAtlas:
   - objects_119
   - objects_109
   - objects_108
+  - Sword_Basic
   - chimney_fire_2
   - chimney_fire_3
   - chimney_fire_0

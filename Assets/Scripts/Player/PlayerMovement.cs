@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-
 public enum PlayerState
 {
     idle,
@@ -41,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
+     
         Debug.Log(change);
         if(Input.GetButtonDown("attack") && currentState != PlayerState.attack &&
             currentState != PlayerState.stagger)

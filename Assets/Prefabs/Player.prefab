@@ -519,6 +519,7 @@ MonoBehaviour:
   speed: 4
   currentHealth: {fileID: 11400000, guid: 18da559032ae7fa48b994de72c87256c, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: a3e15f0135c719d4899cd38b5075f661, type: 2}
+  startingPosition: {fileID: 0}
 --- !u!61 &6204904033439630724
 BoxCollider2D:
   m_ObjectHideFlags: 0
