@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 34e4e1b8cae9a3742ba04c897dcd8a54, type: 3}
-    totalSpriteSurfaceArea: 2346848
+    totalSpriteSurfaceArea: 2346864
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -192,6 +192,7 @@ SpriteAtlas:
   - {fileID: 21300004, guid: 4b697ff4bf4eeda4bae1ce206e489f80, type: 3}
   - {fileID: 21300000, guid: 4b697ff4bf4eeda4bae1ce206e489f80, type: 3}
   - {fileID: 21300002, guid: 4b697ff4bf4eeda4bae1ce206e489f80, type: 3}
+  - {fileID: 21300000, guid: 3e4f7da54977b08469012eec00427e1f, type: 3}
   - {fileID: 21300118, guid: 561c96f627c247f42ba498ea3008f8a3, type: 3}
   - {fileID: 21300122, guid: 561c96f627c247f42ba498ea3008f8a3, type: 3}
   - {fileID: 21300150, guid: 561c96f627c247f42ba498ea3008f8a3, type: 3}
@@ -323,7 +324,22 @@ SpriteAtlas:
   - {fileID: 21300002, guid: e7d297f9a6359924686acbee5374e94b, type: 3}
   - {fileID: 21300000, guid: e7d297f9a6359924686acbee5374e94b, type: 3}
   - {fileID: 21300000, guid: 7c0b577b5c2edd6479ccecf3288a0bf8, type: 3}
+  - {fileID: 21300006, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300004, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300002, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
   - {fileID: 21300000, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300014, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300012, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300010, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300008, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300018, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300016, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300028, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300030, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300024, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300026, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300020, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
+  - {fileID: 21300022, guid: 8e4f51cb4532cb34292efd58650f944b, type: 3}
   - {fileID: 21300000, guid: c28036dbec098d4478e72266d0d62367, type: 3}
   - {fileID: 21300006, guid: e0d1319dc6ff0a344a62a1cd541bb53a, type: 3}
   - {fileID: 21300004, guid: e0d1319dc6ff0a344a62a1cd541bb53a, type: 3}
@@ -1990,6 +2006,7 @@ SpriteAtlas:
   - Fountain_2
   - Fountain_0
   - Fountain_1
+  - Square
   - Minotaur_Boss - Sprite Sheet_59
   - Minotaur_Boss - Sprite Sheet_61
   - Minotaur_Boss - Sprite Sheet_75
@@ -2121,7 +2138,22 @@ SpriteAtlas:
   - chimney_smoke_1
   - chimney_smoke_0
   - font
-  - NPC_elf
+  - NPC_elf_3
+  - NPC_elf_2
+  - NPC_elf_1
+  - NPC_elf_0
+  - NPC_elf_7
+  - NPC_elf_6
+  - NPC_elf_5
+  - NPC_elf_4
+  - NPC_elf_9
+  - NPC_elf_8
+  - NPC_elf_14
+  - NPC_elf_15
+  - NPC_elf_12
+  - NPC_elf_13
+  - NPC_elf_10
+  - NPC_elf_11
   - Chickens-sheet
   - tree_test_3
   - tree_test_2
