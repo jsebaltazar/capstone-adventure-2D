@@ -17,4 +17,27 @@ public class Interactable : MonoBehaviour
     {
         
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !other.isTrigger)
+        {
+            contextSignal.Raise();
+            Debug.Log("Player in range");
+            playerInRange = true;
+        }
+
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !other.isTrigger)
+        {
+            contextSignal.Raise();
+            Debug.Log("Player left range");
+            playerInRange = false;
+
+        }
+
+    }
 }

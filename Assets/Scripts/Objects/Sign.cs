@@ -21,12 +21,14 @@ public class Sign : Interactable
             if(dialogBox.activeInHierarchy)
             {
                 dialogBox.SetActive(false);
+                dialogText.text = " ";
             }
             else
             {
                 dialogBox.transform.SetAsLastSibling();
                 dialogBox.SetActive(true);
                 dialogText.text = dialog;
+                dialogText.transform.SetAsLastSibling();
             }
         }
     }
@@ -50,6 +52,7 @@ public class Sign : Interactable
             Debug.Log("Player left range");
             playerInRange = false;
             dialogBox.SetActive(false);
+                
         }
 
     }

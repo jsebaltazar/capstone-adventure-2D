@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public enum PlayerState
@@ -13,14 +14,29 @@ public enum PlayerState
 }
 public class PlayerMovement : MonoBehaviour
 {
+    public Button left, right, up, down;
     public PlayerState currentState;
     public float speed;
     private Rigidbody2D myRigidbody;
-    private Vector3 change;
+    public Vector3 change;
     private Animator animator;
     public FloatValue currentHealth;
     public Signal playerHealthSignal;
     public VectorValue startingPosition;
+
+    private Vector2 touchOrigin = -Vector2.one;
+
+    public Vector3 Change
+    {
+        get
+        {
+            return change;
+        }
+        set
+        {
+            change = value;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -37,10 +53,39 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+#if UNITY_STANDALONE || UNITY_WINDOWS
+
+
+
+#else
+        if(Input.touchCount > 0)
+        {
+            Touch myTouch = Input.touches[0];
+            if( myTouch.phase == TouchPhase.Began)
+            {
+                touchOrigin = myTouch.position;
+
+            }
+            else if (myTouch.phase == TouchPhase.Ended && touchOrigin.x >= 0)
+            {
+                Vector2 touchEnd = myTouch.position;
+                float x = touchEnd.x - touchOrigin.x;
+                float y = touchEnd.y - touchOrigin.y;
+                touchOrigin.x = -1;
+                if(Mathf.Abs(x) > Mathf.Abs(y))
+                    change.x = x > 0 ? 1 : -1;
+                else
+                    change.y = y > 0 ? 1: -1;
+            }
+        }
+#endif
+
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
-     
+       
+
         Debug.Log(change);
         if(Input.GetButtonDown("attack") && currentState != PlayerState.attack &&
             currentState != PlayerState.stagger)
@@ -121,5 +166,74 @@ public class PlayerMovement : MonoBehaviour
             currentState = PlayerState.idle;
             myRigidbody.velocity = Vector2.zero;
         }
+    }
+
+
+
+
+    void checkJoystickUpdate()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            moveLeft();
+            Debug.Log("Left!");
+
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            moveRight();
+            Debug.Log("Right!");
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            moveUp();
+            Debug.Log("Up!");
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            moveDown();
+            Debug.Log("Down!");
+
+
+        }
+    }
+    public void moveLeft()
+    {
+         change.y = 0;
+        change.x = -1;
+        Debug.Log(change);
+        if (Input.GetButtonDown("attack") && currentState != PlayerState.attack &&
+            currentState != PlayerState.stagger)
+        {
+            StartCoroutine(AttackCo());
+        }
+        else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
+        {
+            UpdateAnimationAndMove();
+        }
+
+    }
+
+    public void moveRight()
+    {
+        change.y = 0;
+        change.x = 1;
+
+    }
+    public void moveUp()
+    {
+        change.y = 1;
+        change.x = 0;
+    }
+    public void moveDown()
+    {
+        change.y = -1;
+        change.x = 0;
     }
 }

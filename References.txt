@@ -21,3 +21,14 @@ https://forums.rpgmakerweb.com/index.php?threads/whtdragons-animals-and-running-
 
 Sword Sprite
 https://www.deviantart.com/kspriter95/art/kirby-FC-sword-sprite-read-description-421667074
+
+
+Title Screen Background art
+"http://www.sclance.com/backgrounds/pixel-background-art/view-page-1.htm"><img src="http://www.sclance.com/backgrounds/pixel-background-art/./pixel-background-art_1758794.jpg" width="350" alt="Pixel Background Art"
+
+Title Screen Audio (Royalty Free)
+http://soundimage.org/wp-content/uploads/2016/04/Crystal-Caverns.mp3
+
+
+Button click sound
+https://www.soundjay.com/misc/sounds/page-flip-01a.mp3
