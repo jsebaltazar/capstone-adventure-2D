@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07f42f9ed454be34e9a883ff3b2cbdb8, type: 3}
-  m_Name: HeartContainers
+  m_Name: BossEnemy
   m_EditorClassIdentifier: 
-  initialValue: 5
-  RuntimeValue: 5
+  initialValue: 10
+  RuntimeValue: 10

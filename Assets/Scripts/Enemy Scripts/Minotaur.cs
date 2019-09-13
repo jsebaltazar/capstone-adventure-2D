@@ -1,8 +1,8 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PatrolLog : Log
+public class Minotaur : Log
 {
     public Transform[] path;
     public int currentPoint;
